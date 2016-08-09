@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">ExpandableLayout</string>
-    <string name="title">An another Application name</string>
-    <string name="jinx_story">Morbi aliquet id augue non pretium. Maecenas at augue lectus. Suspendisse eget malesuada ligula, vitae tincidunt purus. Nunc tortor augue, sollicitudin eget enim quis, gravida tempus tellus. Sed interdum magna vehicula rutrum interdum. Nunc in imperdiet nisl. Suspendisse tempus lorem eget elementum placerat. Cras felis odio, ornare eu
+    <string name="title">Lorem Ipsum</string>
+    <string name="show">More Information</string>
+    <string name="hide">Less information</string>
+    <string name="lorem_ipsum">Morbi aliquet id augue non pretium. Maecenas at augue lectus. Suspendisse eget malesuada ligula, vitae tincidunt purus. Nunc tortor augue, sollicitudin eget enim quis, gravida tempus tellus. Sed interdum magna vehicula rutrum interdum. Nunc in imperdiet nisl. Suspendisse tempus lorem eget elementum placerat. Cras felis odio, ornare eu
         purus id, accumsan pharetra odio. Etiam vel semper dolor. Suspendisse facilisis purus at enim euismod tempor.</string>
 </resources>
