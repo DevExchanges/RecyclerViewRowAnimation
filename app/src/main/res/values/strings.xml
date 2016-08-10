@@ -3,6 +3,6 @@
     <string name="title">Lorem Ipsum</string>
     <string name="show">More Information</string>
     <string name="hide">Less information</string>
-    <string name="lorem_ipsum">Morbi aliquet id augue non pretium. Maecenas at augue lectus. Suspendisse eget malesuada ligula, vitae tincidunt purus. Nunc tortor augue, sollicitudin eget enim quis, gravida tempus tellus. Sed interdum magna vehicula rutrum interdum. Nunc in imperdiet nisl. Suspendisse tempus lorem eget elementum placerat. Cras felis odio, ornare eu
-        purus id, accumsan pharetra odio. Etiam vel semper dolor. Suspendisse facilisis purus at enim euismod tempor.</string>
+    <string name="short_content">Lorem ipsum dolor sit amet...</string>
+    <string name="long_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fermentum sed orci eget porttitor. Fusce ultricies urna sit amet consectetur tincidunt. Suspendisse tempus libero lectus, a lacinia felis bibendum id. Curabitur ac fringilla leo. Curabitur gravida dolor felis, et molestie dui mollis ac. Maecenas hendrerit dignissim nisl, non efficitur ex eleifend ac. Ut semper at turpis non finibus. Suspendisse potenti. Sed bibendum molestie luctus. Donec lobortis egestas turpis at aliquet. Curabitur non congue neque. Sed non rutrum risus. Sed iaculis mi in ipsum dignissim condimentum. Duis eget cursus leo, tristique eleifend risus. Vivamus ornare turpis et libero aliquet hendrerit. Nunc nec vestibulum tellus, nec feugiat purus.</string>
 </resources>

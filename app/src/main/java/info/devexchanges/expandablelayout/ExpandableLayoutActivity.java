@@ -7,40 +7,35 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+public class ExpandableLayoutActivity extends AppCompatActivity {
 
-    private TextView txt_help_gest;
-    private TextView txtTitle;
+    private TextView txtContent;
     private Animation animationUp;
     private Animation animationDown;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_ex_layout);
 
-        txt_help_gest = (TextView) findViewById(R.id.txt_help_gest);
-        txtTitle = (TextView) findViewById(R.id.help_title_gest);
-        txt_help_gest.setVisibility(View.GONE);
+        txtContent = (TextView) findViewById(R.id.title_text);
+        TextView txtTitle = (TextView) findViewById(R.id.content_text);
+        txtContent.setVisibility(View.GONE);
         animationUp = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.slide_up);
         animationDown = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.slide_down);
 
         txtTitle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                toggle_contents(view);
+                if(txtContent.isShown()){
+                    txtContent.setVisibility(View.GONE);
+                    txtContent.startAnimation(animationUp);
+                }
+                else{
+                    txtContent.setVisibility(View.VISIBLE);
+                    txtContent.startAnimation(animationDown);
+                }
             }
         });
-    }
-
-    public void toggle_contents(View v){
-        if(txt_help_gest.isShown()){
-            txt_help_gest.setVisibility(View.GONE);
-            txt_help_gest.startAnimation(animationUp);
-        }
-        else{
-            txt_help_gest.setVisibility(View.VISIBLE);
-            txt_help_gest.startAnimation(animationDown);
-        }
     }
 }
