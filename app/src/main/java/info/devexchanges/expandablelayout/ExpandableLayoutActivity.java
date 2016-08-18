@@ -21,6 +21,7 @@ public class ExpandableLayoutActivity extends AppCompatActivity {
         txtContent = (TextView) findViewById(R.id.title_text);
         TextView txtTitle = (TextView) findViewById(R.id.content_text);
         txtContent.setVisibility(View.GONE);
+
         animationUp = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.slide_up);
         animationDown = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.slide_down);
 
