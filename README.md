@@ -1,2 +1,3 @@
-# RecyclerViewExpandingAnimation
-Expanding/Collapsing RecyclerView row with animation from xml files in Android
+# RecyclerViewRowAnimation
+RecyclerView row with expanding/collapsing animation in Android
+
